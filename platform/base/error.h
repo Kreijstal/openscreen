@@ -6,6 +6,7 @@
 #define PLATFORM_BASE_ERROR_H_
 
 #include <cassert>
+#include <cstdint>
 #include <ostream>
 #include <string>
 #include <utility>
