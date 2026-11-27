@@ -290,7 +290,7 @@ use_repo(cc_configure, "local_config_cc")
 bazel_dep(name = "lua", version = "5.4.6", dev_dependency = True)
 
 # For benchmarks
-bazel_dep(name = "googleapis", version = "0.0.0-20240819-fe8ba054a", dev_dependency = True)
+bazel_dep(name = "googleapis", version = "0.0.0-20261103-57aa4dbc", dev_dependency = True)
 bazel_dep(name = "google_benchmark", version = "1.9.2", dev_dependency = True)
 
 # For testing runtime against old gencode from a previous major version.
